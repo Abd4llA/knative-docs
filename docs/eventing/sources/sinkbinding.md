@@ -7,7 +7,7 @@ type: "docs"
 
 ![version](https://img.shields.io/badge/API_Version-v1beta1-red?style=flat-square)
 
-Knative event sources introduced a way to link event producers to an in-cluster _event sink_ using a custom CRD. Typically, event source authors provide a custom CRD (e.g.`APIServerSource`), a controller that reconciles on provided CRD, and a receive adapter component which understand how to forward the events from the producer to the sink. 
+Knative event sources introduced a way to link event producers to an in-cluster _event sink_ using a custom CRD. Typically, event source authors provide a custom CRD (e.g.`GitHubSource`), a controller that reconciles on provided CRD, and a receive adapter component which understand how to forward the events from the producer to the sink. 
    
 ![](sinkbinding_figure_1-Page-1.svg)
 
